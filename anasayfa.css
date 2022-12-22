@@ -1,0 +1,334 @@
+
+
+
+
+.header {
+    background-color: #a89283;
+    padding: 20px;
+    text-align: center;
+    opacity: 0.6;
+    height: 40px;
+  }
+
+  h1 {
+    font-family: 'Pacifico', cursive;
+    
+  }
+
+body {
+    background-color: rgb(194, 187, 170);
+    margin: 0px;
+}
+.topnav {
+    overflow: hidden;
+    background-color: rgb(140, 61, 61);
+  }
+
+.topnav a {
+
+    display: inline-block;
+    color: #f1f1f1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav b {
+    float: right;
+    display: block;
+    color: #f1f1f1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover  {
+    background-color: grey;
+    color: black;
+
+}
+.topnav b:hover {
+    background-color: grey;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+    background-color: rgb(194, 187, 170);
+  }
+  
+  li {
+    float: left;
+    margin-left: 50px;
+    padding: 5px;
+
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: rgb(201, 3, 3);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .arkaplan{
+    background-color: #fffff05f;
+    height: auto;
+    margin:auto;
+    text-align: center;
+    width: 1100px;
+    padding: 10px;
+  }
+
+  div.anaresim{
+    background-color: white;
+    text-align: center;
+    margin: 20px;
+    
+  }
+
+ h2{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 100;
+  font-size:20px;
+  line-height: 10px;
+
+ }
+ .arkaplan p
+ {
+  color: rgb(0, 0, 0);
+  text-indent: 60px;
+  text-align: center;
+  font-size:15px;
+  overflow:hidden ;
+  font-weight: 75;
+ }
+
+ .satır
+ {
+  width: 1000px;
+  background-color: f;
+  height: 440px;
+  display: flex;
+  text-align: center;
+  padding: 0px 50px 0px 50px;
+ }
+
+ .satır2
+ {
+  width: 1000px;
+  background-color: f;
+  height: 440px;
+  display: flex;
+  text-align: center;
+  padding: 0px 50px 0px 50px;
+ }
+
+ .urun
+ {
+  background-color: white;
+  width: 250px;
+  height: 400px;
+  margin: 20px 1px 10px 2px;
+  letter-spacing: normal;
+ }
+
+ .urun2{
+  background-color: white;
+  width: 250px;
+  height: 300px;
+  margin: 20px 40px 10px 40px;
+  letter-spacing: normal
+ }
+
+ .urun3{
+  background-color: white;
+  width: 150px;
+  height: 160px;
+  margin: auto;
+  letter-spacing: normal;
+ }
+
+ .urun2 p {
+  text-indent: 700px;
+ }
+  
+  .footer {
+    background-color: rgb(114, 93, 93);
+    text-align: center;
+    /* position: fixed; */
+    bottom: 0;
+    width:100%;
+    height: 70px;
+    left: 0;
+  }
+
+span {
+  text-align: center;
+} 
+
+p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.urunici2{
+  background-color: white;
+  width: 250px;
+  height: 200px;
+  margin: 0px 1px 5px 0px;
+  
+}
+
+.urunici2{
+  background-color: rgb(255, 255, 255);
+  width: 250px;
+  height: 200px;
+  margin: 30px 1px 5px 0px;
+  
+}
+.buton1 a{
+  background-color: transparent;
+  border:1px solid black;
+  padding: 10px 70px 10px 70px;
+  border-radius: 50px;
+  transition: all .5s;
+  text-decoration: none;8
+  color: black;
+}
+
+.buton1 a:hover {
+  background-color: rgb(48, 44, 44);
+  color: white;
+
+}
+
+.buton1 {
+  margin-top: 60px;
+}
+
+.form {
+  width: 1000px;
+  background-color: f;
+  height: 440px;
+  display: flex;
+  text-align: center;
+  padding: 0px 50px 0px 50px;
+}
+
+.baslık {
+  width: 800px;
+  height: 220px;
+  text-align: center;
+  padding: 80px 80px 60px 80px;
+}
+
+input[type=text] {
+  border-radius: 50px;
+  width: auto;
+  padding: 10px 20px 10px 20px;
+  height: 10px;
+  border: none;
+  background-color: rgb(194, 187, 170);
+}
+
+
+
+ /* .colomn {
+    float: left;
+    width: 33.33;
+    padding: 15px;
+  }
+
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+  }*/
+
+  /*.ac-container div:nth-of-type(3n) .urunlerim {
+    width: calc(100% - 0px);
+    padding: 15px 0px;
+    border: 0px;
+    border-bottom: 1px solid #e8e8e8;
+    margin-top: 0px!important;
+    }
+    .ac-container div:nth-of-type(3n) .urunlerim:last-child {
+    border-bottom: 0px;
+    }
+    .ac-container div:nth-of-type(3n) .urunlerim figure {
+    width: calc(80px - 0px);
+    height: auto;
+    max-height: 80px;
+    margin: 0px 15px 0px 0px;
+    float: left;
+    border: 0px;
+    padding: 0px;
+    }
+    .ac-container div:nth-of-type(3n) .urunlerim figcaption {
+    width: calc(100% - 95px);
+    height: 36px;
+    line-height: 1.4;
+    font-size: 13px;
+    -webkit-line-clamp: 2;
+    margin: 0px 0px 0px 0px;
+    text-align: left;
+    }
+    .ac-container div:nth-of-type(3n) .urunlerim:hover figcaption {
+    color: #e88b00;
+    }
+    .ac-container div:nth-of-type(3n) .urunlerim .fiyat {
+    width: calc(100% - 95px);
+    height: auto;
+    margin-top: 5px;
+    text-align: left;
+    border: 0px;
+    padding: 0px;
+    }
+    .ac-container div:nth-of-type(3n) .urunlerim .fiyat span.findirim {
+    font-size: 11px;
+    line-height: 1.2;
+    }
+    .ac-container div:nth-of-type(3n) .urunlerim .fiyat span.efiyat {
+    font-size: 11px;
+    line-height: 1.2;
+    }
+    .ac-container div:nth-of-type(3n) .urunlerim .fiyat span.yfiyat {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1.2;*/
